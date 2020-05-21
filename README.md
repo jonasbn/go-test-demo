@@ -12,7 +12,7 @@ $ go test -v
 
 Using `gotest`
 
-```
+```bash
 $ gotest -v
 ```
 
