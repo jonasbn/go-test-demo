@@ -5,7 +5,7 @@ This is a basic repository I use for testing `gotest`, which provides colorful o
 Standard **go** toolchain:
 
 ```bash
-$ go test -v github.com/jonasbn/go-test-demo
+$ go test -v
 ```
 
 ![standard go test example screenshot](test-go-test-demo.png)
@@ -13,12 +13,16 @@ $ go test -v github.com/jonasbn/go-test-demo
 Using `gotest`
 
 ```bash
-$ gotest -v github.com/jonasbn/go-test-demo
+$ gotest -v
 ```
 
 ![colorful gotest example screenshot](gotest-go-test-demo.png)
 
 I use this repository for testing my contributions to `gotest`
+
+```bash
+$ gotest -v github.com/jonasbn/go-test-demo
+```
 
 ## Resources and References
 
