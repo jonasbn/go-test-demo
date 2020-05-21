@@ -1,3 +1,3 @@
-module github.com/jonasbn/testdemo
+module github.com/jonasbn/go-test-demo
 
 go 1.14
