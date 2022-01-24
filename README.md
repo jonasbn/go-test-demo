@@ -31,21 +31,14 @@ Do note that the above example expects for you to be in a directory containing a
 
 You can do the following to get the demo to work, if you are not in the context of a Go module - it could be any, you could even fork and clone this here repository.
 
-Create a directory
+1. Create a directory
+1. Initialize as a Go module
+1. Install this demo
+1. Run the `gotest` command
 
 ```bash
-mkdir gonow
-```
-
-Initialize as a Go module
-
-```bash
-go mod init example.com/gonow
-```
-
-Install this demo
-
-```bash
+mkdir gonow && \
+go mod init example.com/gonow && \
 go get github.com/jonasbn/go-test-demo
 ```
 
